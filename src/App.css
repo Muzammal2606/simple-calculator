@@ -1,0 +1,50 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/5212343/pexels-photo-5212343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+}
+.wrapper{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin-left: 550px;
+margin-top: 100px;
+}
+.row{
+  display: flex;
+  width: 280px;
+}
+button{
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+  background-color: rgb(0, 0, 0);
+  font-family: Gemunu Libre;
+  font-size: 20px;
+}
+input{
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  font-family: Gemunu Libre;
+  margin-bottom: 20px;
+}
+.highlight{
+  flex: 2;
+}
